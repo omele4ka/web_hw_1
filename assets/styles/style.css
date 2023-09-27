@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat-regular'), url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'montserrat-regular', 'Verdana', sans-serif;
+    background-color: #c7b299;
+    background-image: url(../images/backgroaund.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link:hover {
+    color: #B0C4DE;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+.main-info{
+    text-align: center;
+}
+
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.goods{
+    margin-left: 50px;
+}
+
+.good-description{
+    margin: 0;
+}
+
+.footer-info{
+    text-align: right;
+    color: azure;
+}

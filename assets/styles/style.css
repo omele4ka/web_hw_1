@@ -12,6 +12,10 @@ body{
     background-image: url(../images/backgroaund.jpg);
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -23,26 +27,38 @@ body{
 }
 
 .menu-link{
-    text-decoration: none;
-    color: black;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .menu-link:hover {
     color: #B0C4DE;
 }
 
-h1,
-h2{
+.headline{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
     text-align: center;
 }
 
-.main-info{
+.welcome-txt{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
     text-align: center;
 }
 
-p{
-    margin-left: 30px;
-    margin-right: 30px;
+.p-info{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
 }
 
 .goods{
